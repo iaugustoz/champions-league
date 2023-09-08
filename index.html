@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEFA Champions League</title>
+
+    <!-- Inclusão do Tailwind CSS -->
+    <link rel="stylesheet" href="dist/output.css">
+
+    <!-- Inclusão do Favicon -->
+    <link rel="shortcut icon" href="src/img/logo.svg" type="image/x-icon">
+
+    <!-- Inclusão da Font Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-inter">
+    <main class="w-full h-full">
+        <header class="bg-banner bg-no-repeat bg-cover h-[640px]" style="background-image: url(src/img/banner.png);">
+            <div class=" flex justify-between items-center max-w-[1200px] mx-auto w-full pt-8">
+                <div>
+                    <img class="w-[120px] h-[120px]" src="src/img/logo.svg" title="O maior do Brasil" alt="Escudo da Champions League">
+                </div>
+                <nav>
+                    <ul class="flex gap-x-12">
+                        <li><a class="text-lg text-white" href="#">Início</a></li>
+                        <li><a class="text-lg text-white" href="#">Jogos</a></li>
+                        <li><a class="text-lg text-white" href="#">Títulos</a></li>
+                        <li><a class="text-lg text-white" href="#">História</a></li>
+                        <li><a class="text-lg text-white" href="#">Loja</a></li>
+                    </ul>
+                </nav>
+                <div class="flex gap-x-12 items-center">
+                    <a class="text-white text-xl" href="#">Entrar</a>
+                    <a class="bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white text-xl rounded py-2 px-4 transition duration-300" href="#">Registre-se</a>
+                </div>
+            </div>
+            <article class="flex items-center max-w-[1200px] mx-auto h-[63vh]">
+                <div>
+                    <h1 class="text-white font-bold text-7xl italic">MATA-MATA</h1>
+                    <p class="max-w-[720px] text-white py-5">Começou a emocionante fase mata-mata da Champions League, onde a competição atinge seu ápice. Os melhores clubes europeus agora se enfrentam em jogos eliminatórios intensos em busca do título mais desejado do futebol continental.</p>
+                    <button class="bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white text-xl rounded py-2 px-4 transition duration-300">Ler matéria</button>
+                </div>
+            </article>
+        </header>
+    </main>
+</body>
+
+</html>
