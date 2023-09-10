@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'banner': "url(src/img/banner.jpg)",
+        'banner': "url(src/img/banner.png)",
       },
       colors: {
         'light-blue-600': '#12b3f8',
@@ -18,6 +18,9 @@ module.exports = {
       },
       boxShadow: {
         'lg': '0px 0px 10px 5px',
+      },
+      screens: {
+        'mh': '769px'
       },
     },
   },

@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+
+    .container {
+        @apply mx-auto sm:max-w-[600px] md:max-w-[850px] mh:max-w-[700px] lg:max-w-[950px] xl:max-w-[1150px] 2xl:max-w-[1200px];
+    }
+
+    /* HEADER */
+    .header-item-nav {
+        @apply text-lg text-white hidden md:block hover:scale-[1.07] transition duration-300;
+    }
+}
