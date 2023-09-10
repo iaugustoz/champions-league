@@ -20,8 +20,8 @@
 
 <body class="font-inter">
     <main>
-        <header class="bg-banner bg-no-repeat bg-cover h-[640px]" style="background-image: url(src/img/banner.png);">
-            <div class="flex justify-evenly md:justify-between items-center container w-full pt-8">
+        <header class="header-background">
+            <div class="header-container container">
 
                 <!-- Logo -->
                 <div>
@@ -39,7 +39,7 @@
 
                 <!-- Menu Mobile -->
                 <div id="menu" class="block md:hidden">
-                    <div class="flex items-center bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white transition duration-300 p-2 rounded gap-x-2 cursor-pointer">
+                    <div class="container-menu">
                         <p>Menu</p>
                         <div>
                             <img src="src/img/menu.svg" alt="">
@@ -50,15 +50,17 @@
                 <!-- Botões do Header -->
                 <div class="flex md:gap-x-3 lg:gap-x-12 items-center">
                     <a class="text-white text-lg hover:scale-[1.07] transition duration-300 hidden md:block" href="#">Login</a>
-                    <a class="bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white text-lg rounded py-2 px-4 transition duration-300 hidden md:block" href="#">UEFA.tv</a>
+                    <a class="button-header py-2 px-4  hidden md:block" href="#">UEFA.tv</a>
                 </div>
 
             </div>
-            <article class="flex justify-center md:justify-start items-center container h-[61vh]">
+
+            <!-- Notícia principal -->
+            <article class="container-article container">
                 <div>
                     <h1 class="text-white font-bold text-6xl sm:text-7xl italic">MATA-MATA</h1>
-                    <p class="max-w-[350px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[620px] xl:max-w-[720px] text-white py-5">Começou a emocionante fase mata-mata da Champions League, onde a competição atinge seu ápice. Os melhores clubes europeus agora se enfrentam em jogos eliminatórios intensos em busca do título mais desejado do futebol continental.</p>
-                    <button class="bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white text-xl rounded py-2 px-8 transition duration-300">Ler matéria</button>
+                    <p class="text-article">Começou a emocionante fase mata-mata da Champions League, onde a competição atinge seu ápice. Os melhores clubes europeus agora se enfrentam em jogos eliminatórios intensos em busca do título mais desejado do futebol continental.</p>
+                    <button class="button-header py-2 px-8">Ler matéria</button>
                 </div>
             </article>
         </header>
