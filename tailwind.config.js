@@ -5,6 +5,16 @@ module.exports = {
     '.**/*.html',
   ],
   theme: {
+    screens: {
+      'xs': '500px',
+      'sm': '640px',
+      'md': '700px',
+      'mh': '850px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+
+    },
     extend: {
       backgroundImage: {
         'banner': "url('../src/img/banner.png')",
@@ -18,9 +28,6 @@ module.exports = {
       },
       boxShadow: {
         'lg': '0px 0px 10px 5px',
-      },
-      screens: {
-        'mh': '769px'
       },
     },
   },

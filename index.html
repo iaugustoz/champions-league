@@ -30,27 +30,30 @@
 
                 <!-- Itens do Header -->
                 <nav>
-                    <ul class="flex gap-x-12">
+                    <ul class="flex md:gap-x-5 mh:gap-x-12">
                         <li><a class="header-item-nav" href="#">Partidas</a></li>
                         <li><a class="header-item-nav" href="#">Grupos</a></li>
                         <li><a class="header-item-nav" href="#">História</a></li>
                     </ul>
                 </nav>
 
+                <!-- Botões do Header -->
+                <div class="hidden md:flex md:gap-x-3 lg:gap-x-12 items-center">
+                    <a class="text-white text-lg hover:scale-[1.07] transition duration-300" href="#">Login</a>
+                    <a class="button-header py-2 px-4" href="#">UEFA.tv</a>
+                </div>
+
                 <!-- Menu Mobile -->
                 <div id="menu" class="block md:hidden">
                     <div class="container-menu">
-                        <p>Menu</p>
-                        <div>
-                            <img src="src/img/menu.svg" alt="">
+                        <h2>Menu</h2>
+                        <div class="flex flex-col items-end gap-y-0.5">
+                            <div class="line-menu"></div>
+                            <div class="line-menu"></div>
+                            <div class="line-menu"></div>
+                            <div class="line-menu"></div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Botões do Header -->
-                <div class="flex md:gap-x-3 lg:gap-x-12 items-center">
-                    <a class="text-white text-lg hover:scale-[1.07] transition duration-300 hidden md:block" href="#">Login</a>
-                    <a class="button-header py-2 px-4  hidden md:block" href="#">UEFA.tv</a>
                 </div>
 
             </div>
@@ -58,7 +61,7 @@
             <!-- Notícia principal -->
             <article class="container-article container">
                 <div>
-                    <h1 class="text-white font-bold text-6xl sm:text-7xl italic">MATA-MATA</h1>
+                    <h1 class="text-white font-bold text-4xl xs:text-[64px] sm:text-7xl italic">MATA-MATA</h1>
                     <p class="text-article">Começou a emocionante fase mata-mata da Champions League, onde a competição atinge seu ápice. Os melhores clubes europeus agora se enfrentam em jogos eliminatórios intensos em busca do título mais desejado do futebol continental.</p>
                     <button class="button-header py-2 px-8">Ler matéria</button>
                 </div>
