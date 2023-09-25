@@ -25,12 +25,17 @@
         @apply bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white text-lg rounded transition duration-300;
     }
 
+    /* MENU MOBILE */
     .container-menu {
         @apply flex items-center bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white transition duration-300 p-2 rounded gap-x-2 cursor-pointer;
     }
 
-    .line-menu {
-        @apply bg-white w-[14px] h-[1.7px] rounded-full;
+    .line-menu-18 {
+        @apply bg-white w-[18px] border-[1.4px] rounded-full;
+    }
+    
+    .line-menu-14 {
+        @apply bg-white w-[14px] border-[1.4px] rounded-full;
     }
 
     .container-article {
@@ -39,5 +44,22 @@
 
     .text-article {
         @apply xs:max-w-[400px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[620px] xl:max-w-[720px] text-white py-5;
+    }
+
+    /* GAME RESULT */
+    .container-team {
+        @apply flex items-center justify-center;
+    }
+
+    .size-teams {
+        @apply w-[60px] xs:w-[60px] sm:w-[90px] md:w-[100px] mh:w-[100px] lg:w-[110px];
+    }
+
+    .size-scoreboard {
+        @apply text-4xl xs:text-4xl sm:text-5xl mh:text-6xl lg:text-7xl;
+    }
+
+    .text-teams {
+        @apply text-xl xs:text-xl sm:text-2xl mh:text-[27px] lg:text-4xl;
     }
 }
