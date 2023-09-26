@@ -63,13 +63,13 @@
         @apply text-xl xs:text-xl sm:text-2xl mh:text-[27px] lg:text-4xl;
     }
 
-    /*  */
+    /* WELCOME */
     .container-welcome {
-        @apply flex justify-center items-center bg-welcome bg-cover h-[600px] lg:h-[500px];
+        @apply flex justify-center items-center bg-welcome bg-cover h-[950px] md:h-[600px];
     }
 
     .card-welcome {
-        @apply bg-white max-w-[85%] xs:max-w-[80%] lg:max-w-[60%] p-5 xs:p-10;
+        @apply bg-white max-w-[85%] xs:max-w-[80%] xl:max-w-[60%] p-5 xs:p-10;
     }
 
     .title-welcome {
