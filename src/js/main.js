@@ -59,3 +59,41 @@ function dataAtualDecrescente() {
 }
 
 dataAtualDecrescente();
+
+// O código JavaScript será executado após o carregamento do documento HTML.
+document.addEventListener("DOMContentLoaded", function () {
+
+    // Carregar o arquivo JSON (Requisição AJAX )
+    let xhr = new XMLHttpRequest();
+    xhr.open("GET", "data/dados_times.json", true);
+
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+
+            // Parse o JSON
+            let dadosTimes = JSON.parse(xhr.responseText);
+
+            // Selecionar um time aleatório do array
+            let times = dadosTimes.times;
+            let timeAleatorioA = times[Math.floor(Math.random() * times.length)];
+            let timeAleatorioB;
+
+            // Selecionar um segundo time diferente do primeiro
+            do {
+                timeAleatorioB = times[Math.floor(Math.random() * times.length)];
+            } while (timeAleatorioB === timeAleatorioA);
+
+            // Marcar o time como selecionado
+            timeAleatorioA.selecionado = true;
+            timeAleatorioB.selecionado = true;
+
+            // Atualizar o placar com os dados do time selecionado
+            document.getElementById("imagemTimeA").src = timeAleatorioA.imagem;
+            document.getElementById("imagemTimeB").src = timeAleatorioB.imagem;
+            document.getElementById("nomeTimeA").textContent = timeAleatorioA.nome;
+            document.getElementById("nomeTimeB").textContent = timeAleatorioB.nome;
+        }
+    };
+    xhr.send();
+
+});
