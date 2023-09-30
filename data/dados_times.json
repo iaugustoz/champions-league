@@ -1,0 +1,75 @@
+{
+    "times": [
+        {
+            "nome": "Real Madrid",
+            "imagem": "src/img/teams/real-madrid.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Barcelona",
+            "imagem": "src/img/teams/barcelona.png",
+            "selecionado": false
+        },
+        
+
+        {
+            "nome": "Arsenal",
+            "imagem": "src/img/teams/arsenal.png",
+            "selecionado": false
+        },
+        
+
+        {
+            "nome": "Atlét. Madr.",
+            "imagem": "src/img/teams/atletico-de-madrid.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Chelsea",
+            "imagem": "src/img/teams/chelsea.png",
+            "selecionado": false
+        },
+        
+
+        {
+            "nome": "Juventus",
+            "imagem": "src/img/teams/juventus.png",  
+            "selecionado": false
+        },
+
+        {
+            "nome": "Liverpool",
+            "imagem": "src/img/teams/liverpool.png",
+            "selecionado": false
+        },
+        
+
+        {
+            "nome": "Man. City",
+            "imagem": "src/img/teams/manchester-city.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Man. United",
+            "imagem": "src/img/teams/manchester-united.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "PSG",
+            "imagem": "src/img/teams/psg.png",
+            "selecionado": false
+        },
+        
+
+        {
+            "nome": "Roma",
+            "imagem": "src/img/teams/roma.png",
+            "selecionado": false
+        }
+        
+    ]
+}
