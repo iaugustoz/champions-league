@@ -12,13 +12,11 @@
             "selecionado": false
         },
         
-
         {
             "nome": "Arsenal",
             "imagem": "src/img/teams/arsenal.png",
             "selecionado": false
         },
-        
 
         {
             "nome": "Atlét. Madr.",
@@ -31,7 +29,6 @@
             "imagem": "src/img/teams/chelsea.png",
             "selecionado": false
         },
-        
 
         {
             "nome": "Juventus",
@@ -68,6 +65,36 @@
         {
             "nome": "Roma",
             "imagem": "src/img/teams/roma.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Tottenham",
+            "imagem": "src/img/teams/tottenham-hotspur.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Borussia",
+            "imagem": "src/img/teams/borusia-dortmund.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Bayern",
+            "imagem": "src/img/teams/bayern.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Internazionale",
+            "imagem": "src/img/teams/internazionale-milano.png",
+            "selecionado": false
+        },
+
+        {
+            "nome": "Olym. de Marseille",
+            "imagem": "src/img/teams/olympique-de-marselha.png",
             "selecionado": false
         }
         
