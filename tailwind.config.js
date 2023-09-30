@@ -13,7 +13,6 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px',
       '2xl': '1536px',
-
     },
     extend: {
       backgroundImage: {
@@ -23,6 +22,7 @@ module.exports = {
       colors: {
         'light-blue-600': '#12b3f8',
         'magenta-700': '#ef45fd',
+        'black-800': '#0B1421',
       },
       fontFamily: {
         'inter': ['Inter', 'Arial', 'Times New Roman'],
