@@ -4,7 +4,7 @@
 </div>
 
 ## Descrição
-Bem-vindo a este site que reflete a minha paixão pelo futebol. Desde o início, meu objetivo principal foi proporcionar aos usuários uma experiência verdadeiramente cativante, focando sempre na experiência do usuário (UX). 
+Bem-vindo a este site que reflete a minha paixão pelo futebol. Desde o início, meu objetivo principal foi proporcionar aos usuários uma experiência verdadeiramente cativante, focando sempre na experiência do usuário (UX) e na interface do usuário (UI). 
 
 Espero que, ao navegar por este site você tenha sido envolvido da mesma forma que eu fui pelo futebol. Desejo-o uma boa experiência :) ⚽💖
 
