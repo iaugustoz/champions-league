@@ -10,7 +10,7 @@
 
     /* HEADER */
     .header-background {
-        @apply flex flex-col bg-banner bg-no-repeat bg-cover h-[640px];
+        @apply flex flex-col bg-header bg-no-repeat bg-cover h-[640px];
     }
 
     .header-container {
@@ -100,6 +100,8 @@
 
     .button-latest-news {
         @apply text-white bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg
-        rounded hover:shadow-light-blue-600 transition duration-300 px-6 py-3;
+        rounded hover:shadow-light-blue-600 transition duration-300 px-6 py-3 active:scale-[1.025];
     }
+
+    /* FOOTER */
 }

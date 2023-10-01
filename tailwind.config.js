@@ -16,13 +16,16 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'banner': "url('../src/img/banner.png')",
+        'header': "url('../src/img/header.png')",
         'welcome': "url('../src/img/welcome.jpg')",
+        'footer': "url('../src/img/footer.jpg')"
       },
       colors: {
         'light-blue-600': '#12b3f8',
         'magenta-700': '#ef45fd',
         'black-800': '#0B1421',
+        'dark-blue-400': '#0c2568',
+        'dark-blue-800': '#061147',
       },
       fontFamily: {
         'inter': ['Inter', 'Arial', 'Times New Roman'],
