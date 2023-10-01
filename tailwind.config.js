@@ -16,9 +16,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'header': "url('../src/img/header.png')",
-        'welcome': "url('../src/img/welcome.jpg')",
-        'footer': "url('../src/img/footer.jpg')"
+        'header': "url('../src/img/background/header.png')",
+        'welcome': "url('../src/img/background/welcome.jpg')",
+        'footer': "url('../src/img/background/footer.jpg')"
       },
       colors: {
         'light-blue-600': '#12b3f8',
