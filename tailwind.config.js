@@ -24,8 +24,8 @@ module.exports = {
         'light-blue-600': '#12b3f8',
         'magenta-700': '#ef45fd',
         'black-800': '#0B1421',
-        'dark-blue-400': '#0c2568',
-        'dark-blue-800': '#061147',
+        'dark-blue-400': '#143677',
+        'dark-blue-800': '#0c2367',
       },
       fontFamily: {
         'inter': ['Inter', 'Arial', 'Times New Roman'],

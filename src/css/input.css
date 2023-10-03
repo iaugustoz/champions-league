@@ -104,4 +104,11 @@
     }
 
     /* FOOTER */
+    .subtitle-footer {
+        @apply text-white text-xl md:text-2xl font-semibold mb-8;
+    }
+
+    .item-footer {
+        @apply text-white mb-6 hover:scale-[1.025] transition duration-300;
+    }
 }

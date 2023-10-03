@@ -39,7 +39,7 @@ function dataAtualDecrescente() {
     const month = date.getMonth() + 1;
     const year = date.getFullYear();
 
-    // Geração de números aleatórios entre 1 e 30
+    // Geração de números aleatórios entre 1 e 28
     const numbers = [
         Math.floor(Math.random() * (29 - 1)) + 1,
         Math.floor(Math.random() * (29 - 1)) + 1,
