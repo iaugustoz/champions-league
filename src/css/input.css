@@ -27,7 +27,7 @@
 
     /* MENU MOBILE */
     .container-menu {
-        @apply flex items-center bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white transition duration-300 p-2 rounded gap-x-2 cursor-pointer;
+        @apply flex items-center bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white transition duration-300 px-4 py-2 rounded gap-x-2 cursor-pointer;
     }
 
     .line-menu-18 {
@@ -39,7 +39,12 @@
     }
 
     .menu-text {
-        @apply text-white;
+        @apply text-white mb-4 transition duration-300 hover:scale-[1.05];
+    }
+
+    .button-menu {
+        @apply bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white transition duration-300 rounded px-3 py-2
+        active:scale-105;
     }
 
     .container-article {
