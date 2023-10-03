@@ -22,7 +22,7 @@
     }
 
     .button-header {
-        @apply bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white text-lg rounded transition duration-300;
+        @apply bg-gradient-to-r from-light-blue-600 to-magenta-700 hover:shadow-lg hover:shadow-light-blue-600 text-white text-lg rounded transition duration-300 active:scale-[1.025];
     }
 
     /* MENU MOBILE */
@@ -36,6 +36,10 @@
     
     .line-menu-14 {
         @apply bg-white w-[14px] border-[1.4px] rounded-full;
+    }
+
+    .menu-text {
+        @apply text-white;
     }
 
     .container-article {
