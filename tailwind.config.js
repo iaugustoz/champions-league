@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'media',
   content: [
     './**/*.html',
     '.**/*.html',
@@ -26,6 +27,7 @@ module.exports = {
         'black-800': '#0B1421',
         'dark-blue-400': '#143677',
         'dark-blue-800': '#0c2367',
+        'dark-mode': '#121212',
       },
       fontFamily: {
         'inter': ['Inter', 'Arial', 'Times New Roman'],

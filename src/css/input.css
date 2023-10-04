@@ -10,7 +10,7 @@
 
     /* HEADER */
     .header-background {
-        @apply flex flex-col bg-header bg-no-repeat bg-cover h-[640px];
+        @apply flex flex-col bg-header bg-no-repeat bg-cover h-[640px] ;
     }
 
     .header-container {
@@ -65,11 +65,11 @@
     }
 
     .size-scoreboard {
-        @apply text-4xl xs:text-4xl sm:text-5xl mh:text-6xl lg:text-7xl;
+        @apply dark:text-white text-4xl xs:text-4xl sm:text-5xl mh:text-6xl lg:text-7xl;
     }
 
     .text-teams {
-        @apply text-xl xs:text-xl sm:text-2xl mh:text-[27px] lg:text-4xl;
+        @apply dark:text-white text-xl xs:text-xl sm:text-2xl mh:text-[27px] lg:text-4xl;
     }
 
     /* WELCOME */
@@ -78,21 +78,21 @@
     }
 
     .card-welcome {
-        @apply bg-white max-w-[85%] xs:max-w-[80%] xl:max-w-[60%] p-5 xs:p-10;
-    }
-
-    .title {
-        @apply font-bold text-2xl lg:text-[2rem] mb-9
-        before:content-[''] before:border-2 before:border-light-blue-600 before:mr-4;
+        @apply dark:bg-dark-mode bg-white max-w-[85%] xs:max-w-[80%] xl:max-w-[60%] p-5 xs:p-10;
     }
 
     .text-welcome {
-       @apply text-gray-600 sm:indent-5 text-base lg:text-lg; 
+       @apply dark:text-white text-gray-600 sm:indent-5 text-base lg:text-lg; 
     }
 
     /* LATEST NEWS */
     .card-latest-news {
         @apply mx-auto md:mx-0 w-[70%] xs:w-[40%] md:w-[30%] cursor-pointer mb-14;
+    }
+
+    .title {
+        @apply font-bold dark:text-white text-2xl lg:text-[2rem] mb-9
+        before:content-[''] before:border-2 before:border-light-blue-600 before:mr-4;
     }
 
     .subtitle-card {
@@ -104,7 +104,7 @@
     }
 
     .title-card {
-        @apply text-black-800 text-lg font-bold leading-[1.5];
+        @apply dark:text-white text-black-800 text-lg font-bold leading-[1.5];
     }
 
     .button-latest-news {
