@@ -1,15 +1,18 @@
 # UEFA Champions League: Onde a Magia Acontece
+
 <div align="center">
 <img src="src/img/site.png" width="2000px" alt="Imagem do site" title="Imagem do site"/>
 </div>
 
 ## Descrição
-Bem-vindo a este site que reflete a minha paixão pelo futebol. Desde o início, meu objetivo principal foi proporcionar aos usuários uma experiência verdadeiramente cativante, focando sempre na experiência do usuário (UX) e na interface do usuário (UI). 
+
+Bem-vindo a este site que reflete a minha paixão pelo futebol. Desde o início, meu objetivo principal foi proporcionar aos usuários uma experiência verdadeiramente cativante, focando sempre na experiência do usuário (UX) e na interface do usuário (UI).
 
 Espero que, ao navegar por este site você tenha sido envolvido da mesma forma que eu fui pelo futebol. Desejo-o uma boa experiência :) ⚽💖
 
 ## Status do projeto
-Projeto em andamento.
+
+Projeto concluído.
 
 ## Pré-requisitos
 
